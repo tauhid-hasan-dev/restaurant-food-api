@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark text-white justify-content-center fw-semibold ">
+        <h1>Choose Your Meal</h1>
+    </nav>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="shopping-cart col-8  p-3 ">
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                    <div class="row g-4 mt-1 ">
+                        <div class="col-4">
+                            <div class="card h-100 ">
+                                <img src="https://images.unsplash.com/photo-1533559662493-65ffecb14f7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YnVzfGVufDB8MnwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body text-center">
+                                    <p class="card-title fs-5 fw-bolder">Audi Bus</p>
+                                    <p class="card-text fw-light ">Brand: Man</p>
+                                    <div class="d-grid gap-2 ">
+                                        <button class="btn btn-primary btn-sm fw-semibold btn-select-player"
+                                            type="button" style="--bs-btn-padding-y: .6rem;">Order now</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 bg-warning">
+                    <h1>
+                        add cart
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="product.js"></script>
+</body>
+
+</html>
